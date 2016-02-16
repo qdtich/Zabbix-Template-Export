@@ -1,1 +1,1 @@
-some utilities for Zabbix automation
+some scripts for Zabbix automation, wrote by myself
