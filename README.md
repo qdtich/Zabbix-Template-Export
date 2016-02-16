@@ -1,2 +1,1 @@
-# test
-测试
+some utilities for Zabbix automation
