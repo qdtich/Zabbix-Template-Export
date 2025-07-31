@@ -1,6 +1,6 @@
 Installation steps
 
-1. Install the extension php zip in the system, then uncomment the extension=zip and change zlib.output_compress=Off to zlib.output_compress=On in PHP.ini.
+1. Install the extension php-zip in the system, then uncomment the extension=zip and change zlib.output_compress=Off to zlib.output_compress=On in PHP.ini.
 
 2. Upload the compressed file to the ui/module subdirectories in the directory where the Zabbix frontend files are located.
 
