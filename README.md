@@ -17,3 +17,8 @@ Installation steps
 <img width="1295" height="491" alt="image" src="https://github.com/user-attachments/assets/87b3617c-caf7-49b2-8d46-d39e44b9842e" />
 
 7. Enjoy it.
+<img width="1857" height="783" alt="image" src="https://github.com/user-attachments/assets/bd08f9e1-91a8-4e0c-b677-4d5fb2e9ea41" />
+<img width="1850" height="594" alt="image" src="https://github.com/user-attachments/assets/00da373d-8539-4648-a879-1509f9d7e35b" />
+<img width="1846" height="158" alt="image" src="https://github.com/user-attachments/assets/6f0cbc01-380e-4f9b-bf21-5f843a3332fc" />
+<img width="1843" height="529" alt="image" src="https://github.com/user-attachments/assets/8adab31c-f02e-496e-b5af-5147b3900d88" />
+<img width="1852" height="717" alt="image" src="https://github.com/user-attachments/assets/a5a6f09a-3511-4b62-a758-5a7e6b3bf884" />
