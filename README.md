@@ -4,7 +4,7 @@ Installation steps
 
 2. Upload the compressed file to the ui/module subdirectories in the directory where the Zabbix frontend files are located.
 
-3. Unzip, and ensure that the directory name and location are correct.
+3. Unzip the compressed file, and ensure that the directory name and location are correct.
 <img width="465" height="121" alt="image" src="https://github.com/user-attachments/assets/dab93135-c876-4159-baa4-2cbcb136e856" />
 
 4. Log in to the Zabbix frontend as an administrator, go to Administration->General->Modules, and click the "Scan directory" button in the upper right corner of the page.
