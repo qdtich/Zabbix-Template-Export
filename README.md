@@ -1,3 +1,5 @@
+for 7.0
+
 Installation steps
 
 1. Install the extension php-zip in the system, then uncomment the extension=zip and change zlib.output_compress=Off to zlib.output_compress=On in PHP.ini.
