@@ -4,7 +4,7 @@ Installation steps
 
 1. Install the extension php-zip in the system, then uncomment the extension=zip and change zlib.output_compress=Off to zlib.output_compress=On in PHP.ini.
 
-2. Upload the compressed file to the ui/module subdirectories in the directory where the Zabbix frontend files are located.
+2. Upload the compressed file to the ui/module subdirectory in the directory where the Zabbix frontend files are located. If installed using apt or yum, the default path is/usr/share/zbbix/modules.
 
 3. Unzip the compressed file, and ensure that the directory name and location are correct.
 <img width="465" height="121" alt="image" src="https://github.com/user-attachments/assets/dab93135-c876-4159-baa4-2cbcb136e856" />
