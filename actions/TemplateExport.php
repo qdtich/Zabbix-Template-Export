@@ -4,7 +4,7 @@ declare(strict_types = 0);
 
 namespace Modules\TemplateExport\Actions;
 
-use CController, CControllerResponseData, CRoleHelper, API, CArrayHelper;
+use CController, CControllerResponseData, CRoleHelper;
 
 class TemplateExport extends CController {
     public function init(): void {
@@ -12,15 +12,15 @@ class TemplateExport extends CController {
     }
 
     protected function checkInput(): bool {
-		return true;
-	}
+        return true;
+    }
 
     protected function checkPermissions(): bool {
-		return $this->checkAccess(CRoleHelper::UI_ADMINISTRATION_GENERAL);
-	}
+        return $this->checkAccess(CRoleHelper::UI_ADMINISTRATION_GENERAL);
+    }
 
     protected function doAction(): void {
         $response = new CControllerResponseData([]);
-		$this->setResponse($response);
+        $this->setResponse($response);
     }
 }
