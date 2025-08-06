@@ -27,19 +27,19 @@ $form_list = (new CFormList())
     );
 
 $form = (new CForm())
-	->setId('template-export-form')
-	->setName('templateExportForm')
-	->setAction((new CUrl('zabbix.php'))
-		->setArgument('action', 'template.output')
-		->getUrl()
-	)
+    ->setId('template-export-form')
+    ->setName('templateExportForm')
+    ->setAction((new CUrl('zabbix.php'))
+        ->setArgument('action', 'template.output')
+        ->getUrl()
+    )
     ->addItem(
-		(new CTabView())
-			->addTab('template.export', _('Template Export'), $form_list)
-			->setFooter(makeFormFooter(
-				new CSubmit('export', _('Export')),
-				[(new CSimpleButton(_('Reset')))->onClick("document.location = " . json_encode((new CUrl('zabbix.php'))->setArgument('action', 'template.export')->getUrl()))]
-			))
-	);
+        (new CTabView())
+            ->addTab('template.export', _('Template Export'), $form_list)
+            ->setFooter(makeFormFooter(
+                new CSubmit('export', _('Export')),
+                [(new CSimpleButton(_('Reset')))->onClick("document.location = " . json_encode((new CUrl('zabbix.php'))->setArgument('action', 'template.export')->getUrl()))]
+            ))
+    );
 
 $html_page->addItem($form)->show();
