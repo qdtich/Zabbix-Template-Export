@@ -8,11 +8,7 @@ use APP, CController, CWebUser, CMenuItem, Zabbix\Core\CModule;
 
 class Module extends CModule {
 	public function init(): void {
-		if (CWebUser::getType() != USER_TYPE_SUPER_ADMIN) {
-			return;
-		}
-
-        $menu = _('Data collection');
+		$menu = _('Data collection');
 
 		APP::Component()->get('menu.main')->findOrAdd($menu)->getSubmenu()->insertAfter('Templates', (new CMenuItem(_('Template export')))->setAction('template.export'));
 	}
