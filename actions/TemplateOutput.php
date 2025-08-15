@@ -26,7 +26,7 @@ class TemplateOutput extends CController {
     }
 
     protected function checkPermissions(): bool {
-        return $this->checkAccess(CRoleHelper::UI_ADMINISTRATION_GENERAL);
+        return $this->checkAccess(CRoleHelper::UI_CONFIGURATION_TEMPLATES);
     }
 
     protected function doAction(): void {
