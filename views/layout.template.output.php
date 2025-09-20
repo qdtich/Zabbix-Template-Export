@@ -1317,3 +1317,4 @@ foreach ($data['export_host_proto_data'] as $hosts) {
 }
 
 $writer->writeToStdOut();
+exit(0);
