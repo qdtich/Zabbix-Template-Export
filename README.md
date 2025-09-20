@@ -2,7 +2,7 @@ for 7.0
 
 Installation steps
 
-1. Install the extension php-zip in the system, then uncomment the extension=zip and change zlib.output_compress=Off to zlib.output_compress=On in PHP.ini.
+1. Install the extension php-zip in the system, then uncomment the **extension=zip** and change zlib.output_compress=Off to **zlib.output_compress=On** in php.ini. For example, the command to install php-zip in Ubuntu 24 is **apt -y install php8.3-zip**, while the command to install php-zip in Rockey 8 is **dnf -y install php-pecl-zip**.
 
 2. Upload the compressed file to the ui/module subdirectory in the directory where the Zabbix frontend files are located. If installed using apt or yum, the default path is/usr/share/zbbix/modules.
 
